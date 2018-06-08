@@ -5,7 +5,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    array : [
+      { player : 'Raul'},
+      { player : 'Ronaldo'},
+      { player : 'Messi'},
+      { player : 'Henry'}
+    ]
   },
 
   /**
