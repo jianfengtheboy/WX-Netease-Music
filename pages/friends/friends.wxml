@@ -1,5 +1,0 @@
-<!--pages/friends/friends.wxml-->
-<text class='title'>球员</text>
-<view class='player' wx:for="{{array}}" wx:key="index">
-  {{item.player}}
-</view>
