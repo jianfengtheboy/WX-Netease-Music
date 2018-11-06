@@ -1,0 +1,5 @@
+<!--components/redUnderline/redUnderline.wxml-->
+<view class='red-underline'>
+      <view class='red' wx:if="{{ active }}"></view>
+      <view class='black' wx:if="{{ !active }}"></view>
+</view>
