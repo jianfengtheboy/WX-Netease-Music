@@ -34,5 +34,90 @@ page {
       height: 55rpx;
       width: 555rpx;
       color: #999;
+}
 
+.box image {
+      margin-right: 10px;
+      width: 28rpx;
+      height: 28rpx;
+      margin-bottom: -2rpx;
+}
+
+.box text {
+      font-size: 24rpx;
+}
+
+.header .player-box {
+      position: absolute;
+      top: 27rpx;
+      right: 30rpx;
+}
+
+.header .player-box image {
+      width: 44rpx;
+      height: 44rpx;
+}
+
+.header .player-box .hide {
+      display: none;
+}
+
+.header .tab-content {
+      display: flex;
+      margin: 22rpx 0;
+}
+
+.header .tab-content .item {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 26rpx;
+      font-weight: bold;
+      color: #767676;
+}
+
+.header .tab-content .active {
+      color: #B53B34;
+}
+
+.discover-container .content {
+      margin-top: 210rpx;
+}
+
+swiper {
+      margin: 0 auto;
+      width: 730rpx;
+      height: 336rpx;
+}
+
+swiper image {
+      width: 100%;
+      height: 100%;
+      border-radius: 10rpx;
+}
+
+.discover-container .content .tab-type-content {
+      display: flex;
+      margin: 30rpx 0;
+}
+
+.discover-container .content .tab-type-content .type-cmp{
+  flex: 1;
+}
+
+.discover-container .content .songlist-content {
+  padding: 36rpx 3rpx;
+  color: #767676;
+}
+
+.discover-container .content .songlist-content .title-cmp{
+  margin-left: 7rpx; 
+}
+
+.discover-container .content .songlist-content .list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }

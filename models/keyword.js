@@ -1,32 +1,32 @@
 import { HTTP } from '../utils/http.js'
 
-class KeywordModel extends HTTP {
+class KeywordModel extends HTTP{
       key = 'q'
       max = 10
-      constructor () {
+      constructor(){
             super()
       }
-
-      getHistory () {
+    
+      getHistory(){
             var keywords = wx.getStorageSync(this.key)
             return keywords
       }
-
-      getHot (success) {
+    
+      getHot(success){
             let params = {
                   url: 'search/hot',
-                  success : success
+                  success: success
             }
             this.request(params)
       }
-
-      addToHistory (word) {
+    
+      addToHistory(word){
             let keywords = this.getHistory()
-            if (keywords) {
+            if (keywords){
                   let index = keywords.indexOf(word)
-                  if (index == -1) {
+                  if(index == -1){
                         let length = keywords.length
-                        if (length >= this.max) {
+                        if(length >= this.max){
                               keywords.pop(word)
                         }
                         keywords.unshift(word)
@@ -38,5 +38,5 @@ class KeywordModel extends HTTP {
             }
       }
 }
-
+    
 export default KeywordModel

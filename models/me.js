@@ -8,15 +8,15 @@ class Me extends HTTP {
       //获取用户歌单
       //@param { 成功后的回调函数 } success
       getUserPlayList (id, success) {
-          let params = {
-              url : 'user/playlist',
-              data : {
+            let params = {
+                  url : 'user/playlist',
+                  data : {
                   uid : id,
                   limit : 1000
-              },
-              success : success
-          }
-          this.request(params)
+                  },
+                  success : success
+            }
+            this.request(params)
       }
 }
 

@@ -28,12 +28,12 @@
                   <swiper catchtap="onSwiperTap"
                               indicator-dots='true'
                               indicator-color='rgba(255,255,255,.3)'
-                              indicator-active-color='#b3d4db'
-                              interval='2000'
+                              indicator-active-color='#B53B34'
+                              interval='4000'
                               circular='true'
                               autoplay>
                         <swiper-item wx:for="{{ bannerList }}" wx:for-item="item" wx:key="{{ item.targetId }}">
-                              <image src="{{ item.picUrl }}" data-songId="{{ item.targetId }}"></image>
+                              <image src="{{ item.imageUrl }}" data-songId="{{ item.targetId }}"></image>
                         </swiper-item>
                   </swiper>
                   <!-- 分类 -->

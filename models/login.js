@@ -11,8 +11,8 @@ class Login extends HTTP {
             let params = {
             url: 'login/cellphone',
             data : {
-                        phone : phone,
-                        password : pwd
+                  phone : phone,
+                  password : pwd
             },
             success : success
             }
@@ -25,7 +25,7 @@ class Login extends HTTP {
             let params = {
                   url : 'user/detail',
                   data : {
-                  uid : uid
+                        uid : uid
                   },
                   success : success
             }
@@ -33,7 +33,7 @@ class Login extends HTTP {
       }
 
       //获取本地用户信息
-      getUserInfo () {
+      getUserinfo () {
             var userinfo = wx.getStorageSync('userinfo')
             return userinfo
       }

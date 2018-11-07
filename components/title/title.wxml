@@ -1,2 +1,4 @@
 <!--components/title/title.wxml-->
-<text>components/title/title.wxml</text>
+<view class='title-container'>
+      <text>{{name}} ></text>
+</view>

@@ -1,2 +1,2 @@
 <!--components/underline1px/underline1px.wxml-->
-<text>components/underline1px/underline1px.wxml</text>
+<view class="underline1px"></view>
