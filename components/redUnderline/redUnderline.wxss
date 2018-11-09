@@ -4,7 +4,7 @@
       width: 56rpx;
       height: 5rpx;
       border-radius: 15rpx;
-      background-color: #B53B34;
+      background-color: #fff;
 }
 
 .red-underline .black{
@@ -12,5 +12,5 @@
       width: 56rpx;
       height: 5rpx;
       border-radius: 15rpx;
-      background-color: #1E1D1F;
+      background-color: #B53B34;
 }

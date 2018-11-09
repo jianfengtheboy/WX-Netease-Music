@@ -3,7 +3,7 @@
       height: 1px;
       content: '';
       width: 100%;
-      border-top: 1px solid #28282B;
+      border-top: 1px solid rgba(0,0,0,.2);
       position: absolute;
       bottom: -1px;
       right: 0;

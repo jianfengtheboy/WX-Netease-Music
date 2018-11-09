@@ -1,2 +1,4 @@
 <!--pages/player/player.wxml-->
-<text>pages/player/player.wxml</text>
+<view>
+      <music-cmp img="{{ song.al.picUrl }}" name="{{ song.name }}" src="{{ url }}" />
+</view>

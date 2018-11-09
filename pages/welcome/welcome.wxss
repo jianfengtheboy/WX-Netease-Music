@@ -1,1 +1,14 @@
 /* pages/welcome/welcome.wxss */
+page {
+      height: 100%;
+}
+
+.welcome-container {
+      width: 100%;
+      height: 100%;
+}
+
+.welcome-container image {
+      width: 100%;
+      height: 100%;
+}

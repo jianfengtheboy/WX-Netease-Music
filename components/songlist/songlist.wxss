@@ -41,6 +41,7 @@
 
 .songlist-container .pic .desc text {
       font-size: 20rpx;
+      color: #767676;
 }
 
 .songlist-container .pic .bg {

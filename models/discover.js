@@ -63,6 +63,9 @@ class Discover extends HTTP {
       getPlaylistHighQuality (success) {
             let params = {
                   url : 'top/playlist/highquality',
+                  data : {
+                        limit : 1000
+                  },
                   success : success
             }
             this.request(params)

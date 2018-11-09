@@ -1,2 +1,30 @@
 <!--pages/allPlayList/allPlayList.wxml-->
-<text>pages/allPlayList/allPlayList.wxml</text>
+<view class='all_playlist-container'>
+      <view class='head'>
+            <view class='content-wrapper'>
+                  <view class='avatar'>
+                        <image src='{{ playListHighQuality[0].creator.backgroundUrl }}'></image>
+                  </view>
+                  <view class='content'>
+                        <text class='name'>{{ playListHighQuality[0].name }}</text>
+                        <text class='desc'>{{ playListHighQuality[0].description }}</text>
+                  </view>
+            </view>
+            <view class='bg'>
+                  <image src="{{ playListHighQuality[0].creator.backgroundUrl }}"></image>
+            </view>
+      </view>
+      <view class='listBox'>
+            <view class='list'>
+                  <block wx:for="{{ playListHighQuality }}" wx:for-item="item" wx:key="{{item.id}}">
+                        <songlist-cmp img="{{ item.coverImgUrl }}" count="{{item.playCount}}" name="{{item.name}}"
+                        playlistid="{{item.id}}" bind:tapping="goPlayList"/>
+                  </block>
+            </view>
+            <view class='list'>
+                  <block wx:for="{{ recommendSongList }}" wx:for-item="item" wx:key="{{item.id}}">
+                        <songlist-cmp img="{{item.picUrl}}" count="{{item.playCount}}" name="{{item.name}}" playlistid="{{item.id}}" bind:tapping="goPlayList"/>
+                  </block>
+            </view>
+      </view>
+</view>

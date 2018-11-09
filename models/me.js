@@ -11,8 +11,8 @@ class Me extends HTTP {
             let params = {
                   url : 'user/playlist',
                   data : {
-                  uid : id,
-                  limit : 1000
+                        uid : id,
+                        limit : 1000
                   },
                   success : success
             }

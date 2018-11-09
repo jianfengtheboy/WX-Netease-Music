@@ -1,1 +1,6 @@
-{}
+{
+      "usingComponents" : {
+            "songlist-cmp": "/components/songlist/songlist"
+      },
+      "navigationBarTitleText": "歌单"
+}
