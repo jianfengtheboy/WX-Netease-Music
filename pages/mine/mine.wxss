@@ -1,9 +1,17 @@
 /* pages/mine/mine.wxss */
+page {
+  background-color: #1E1D1F;
+}
+
+.mine-container {
+  background-color: #1E1D1F;
+}
+
 .mine-container .head {
       position: fixed;
       top: 0;
       width: 100%;
-      background-color: #fff;
+      background-color: #1E1D1F;
 }
 
 .mine-container .head .item {
@@ -29,9 +37,9 @@
       justify-content:space-between;
       align-items: center;
       padding-right: 20rpx;
-      color: #444;
+      color: #cacaca;
       font-size: 30rpx;
-      border-bottom: 1px solid rgba(0,0,0,0.1);
+      border-bottom: 1px solid #29282C;
 }
 
 .mine-container .head .item .text .right {
@@ -92,5 +100,5 @@
 
 .mine-container .content-container .list .right .count {
       font-size: 22rpx;
-      color: #666;
+      color: #777;
 }

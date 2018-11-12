@@ -17,16 +17,16 @@
   ],
   "window":{
       "backgroungTextStyle" : "light",
-      "navigationBarBackgroundColor": "#B53B34",
+      "navigationBarBackgroundColor": "#1E1D1F",
       "navigationBarTitleText": "网易云音乐，听见好时光",
       "navigationBarTextStyle":"light",
       "backgroundColor": "#fff"
   },
   "tabBar" : {
-      "borderStyle": "rgba(255,255,255,.1)",
+      "borderStyle": "black",
       "selectedColor": "#B53B34",
-      "backgroundColor": "rgba(255,255,255,.2)",
-      "color": "#888",
+      "backgroundColor": "#1E1D1F",
+      "color": "#696665",
       "list" : [
             {
                   "pagePath": "pages/discover/discover",

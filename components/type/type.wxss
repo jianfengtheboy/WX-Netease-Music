@@ -14,7 +14,7 @@
       width: 100rpx;
       height: 100rpx;
       border-radius: 50%;
-      background-color: #B53B34;
+      background-color: #444446;
 }
 
 .type-container .circle image{
@@ -24,5 +24,5 @@
 
 .type-container text{
       font-size: 24rpx;
-      color: #333;
+      color: #767676;
 }

@@ -1,9 +1,17 @@
 /* pages/discover/discover.wxss */
+page {
+  background-color: #1E1D1F;
+}
+
+.discover-container {
+  background-color: #1E1D1F;
+}
+
 .header {
       position: fixed;
       top: 0;
       width: 100%;
-      background-color: #B53B34;
+      background-color: #1E1D1F;
       z-index: 99;
 }
 
@@ -22,10 +30,10 @@
       justify-content: center;
       align-items: center;
       border-radius: 50rpx;
-      background-color: rgba(255,255,255,.1);
+      background-color: #2B2B2D;
       height: 55rpx;
       width: 555rpx;
-      color: #fafafa6c;
+      color: #999999;
 }
 
 .box image {
@@ -66,11 +74,12 @@
       align-items: center;
       justify-content: center;
       font-size: 26rpx;
-      color: #fff;
+      color: #767676;
 }
 
 .header .tab-content .active {
       font-weight: bold;
+      color:#B53B34;
 }
 
 .discover-container .content {
@@ -100,7 +109,7 @@ swiper image {
 
 .discover-container .content .songlist-content {
   padding: 36rpx 3rpx;
-  color: #111;
+  color: #767676;
 }
 
 .discover-container .content .songlist-content .title-cmp{
