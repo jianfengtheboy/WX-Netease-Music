@@ -4,7 +4,7 @@
 
 > api : [网易云音乐 NodeJS 版 API](https://binaryify.github.io/NeteaseCloudMusicApi)
 
-# Build Setup
+## Build Setup
 
 > WX-Netease-Music
 
