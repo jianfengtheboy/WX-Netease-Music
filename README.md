@@ -24,4 +24,4 @@ npm install (或者cnpm install) //安装依赖
 node app.js //服务端运行 访问 http://localhost:3000/
 ```
 
-# 运行SunPlayer后无法获取音乐请检查后台服务器是否启动
+> 运行SunPlayer后无法获取音乐请检查后台服务器是否启动
